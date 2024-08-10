@@ -52,7 +52,7 @@ echo "That's all apps for now, to add more apps edit the LAUNCHER.BAT file from 
 goto input
 :: and we exit with this function, so you can use the starting CMD for... something.
 :exit
-echo "Exiting Personal App_Launcher."
+echo "Exiting Launcher."
 exit
 
 
