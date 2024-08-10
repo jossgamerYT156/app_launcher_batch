@@ -9,7 +9,7 @@ echo "add your own prefixes by editing this batch file, use: /explorer, /cmd to 
 set /p command="Enter command: "
 :: put your IF statements in this format, this can be just copy-pasted and modified to fit your preferences.
 if /i "%command%" == "/explorer" goto explorer
-if /i "%command%" == "/cmd"goto cmd
+if /i "%command%" == "/cmd" goto cmd
 :: you might need these prefixes too so you can remember what you added, it is recommended to add more items to APPLIST everytime you add more apps to this batch-file.
 if /i "%command%" == "/help" goto help
 if /i "%command%" == "/APPLIST" goto APPLIST
